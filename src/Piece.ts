@@ -120,7 +120,7 @@ export default class Piece implements IPiece {
         return false
       }
       else
-      if (this.x = node.y && this.y == node.y) {
+      if (this.x == node.y && this.y == node.y) {
         return true
       }
 
