@@ -210,7 +210,7 @@ export default class Game extends BaseGame {
         this.growth += 1; // Snake got bigger
       }
 
-      this.updateScore(type === 'food' ? 1 : 50); // Calculate the new score
+      this.updateScore(type === 'food' ? 1 : -2); // Calculate the new score
       this.showScore(); // Update the score
     }
   }
