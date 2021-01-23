@@ -52,6 +52,7 @@ export default class Game extends BaseGame {
       for(let i=0;i<grids.length;i +=1){
         Utils.removeNode(grids[i]);
       }
+      this.gridVisible=false;
      };
 
 
