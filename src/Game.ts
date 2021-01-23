@@ -277,7 +277,9 @@ export default class Game extends BaseGame {
     }
 
     this.score += won;
-
+    if(this.score>=20){
+      this.score=0;
+    }
     return this.score;
   }
 
